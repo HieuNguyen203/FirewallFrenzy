@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3571900342972234283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4521276172473429658}
+  - component: {fileID: 7033496216338969713}
+  m_Layer: 0
+  m_Name: Batch 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4521276172473429658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3571900342972234283}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7033496216338969713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3571900342972234283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 765cc09fd2f7000468c3b4efef6668db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawners:
+  - sections:
+    - projectile: {fileID: 4243074496848087474, guid: 090a48eb7e7b79d4da73401cb798067a, type: 3}
+      spawnTime: 0.5
+    - projectile: {fileID: 4243074496848087474, guid: 090a48eb7e7b79d4da73401cb798067a, type: 3}
+      spawnTime: 1
+    - projectile: {fileID: 4243074496848087474, guid: 090a48eb7e7b79d4da73401cb798067a, type: 3}
+      spawnTime: 1
+    - projectile: {fileID: 4243074496848087474, guid: 090a48eb7e7b79d4da73401cb798067a, type: 3}
+      spawnTime: 1
+    postition: {fileID: 5549206690949299964, guid: f6d71bf23facdd549afad970eaa269c9, type: 3}
+  - sections:
+    - projectile: {fileID: 4243074496848087474, guid: 090a48eb7e7b79d4da73401cb798067a, type: 3}
+      spawnTime: 1
+    - projectile: {fileID: 4243074496848087474, guid: 090a48eb7e7b79d4da73401cb798067a, type: 3}
+      spawnTime: 1
+    - projectile: {fileID: 4243074496848087474, guid: 090a48eb7e7b79d4da73401cb798067a, type: 3}
+      spawnTime: 1
+    - projectile: {fileID: 4243074496848087474, guid: 090a48eb7e7b79d4da73401cb798067a, type: 3}
+      spawnTime: 1
+    postition: {fileID: 5071900830160994182, guid: 69d1446597df32941b811129d9a513d4, type: 3}
+  duration: 4.5
